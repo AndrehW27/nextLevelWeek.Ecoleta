@@ -1,10 +1,10 @@
 # nextLevelWeek-Ecoleta
+
 Projeto para estudo de desenvolvimento web, através do curso da Rocket Seat: Next Level Week. 
 
-Acesse a página clicando no link ao lado: https://nlw--ecoleta.herokuapp.com/
+Acesse a aplicação aqui: https://nlw--ecoleta.herokuapp.com/
 
-O projeto envolve uma solução para visualizar e cadastrar pontos de coleta de diversos tipos de lixo, visando melhorar o descarte 
-apropriado de cada tipo de lixo.
+A ideia do projeto é criar uma a plataforma para empresas de coleta seletiva cadastrarem seus endereços para que as pessoas possam encontrá-las e assim fazer um descarte correto de resíduos orgâncicos e materiais recicláveis.
 
 Ferramentas utilizadas:
 VSCode,
@@ -18,24 +18,36 @@ SQlite3.
 
 HOME
 
-  -Cadastrar 
-
-    Vai para a página CADASTRO
-
-  -Pesquisar
-
-    Você pode acessar os 2 pontos previamente cadastrados(consulte Oz e Rio do Sul).
-    Caso não seja encontrado nada no banco de dados, a pesquisa retorna que não localizou nenhum ponto de coleta.
-    Em ambos os casos, você acessará a página PESQUISA.
+Aqui é possível cadastrar um endereço para um novo ponto de coleta, e também pesquisar os pontos previamente cadastrados.
+![](Images/home.JPG)
 
 CADASTRO
 
-  -Cadastrar
+Para adicionar um novo ponto de coleta, basta inserir os dados requisitados, e selecionar quais itens de coleta sua empresa é responsável por recolher, assim o endereço será registrado no banco de dados e poderá ser encontrado posteriormente.
+![](Images/cadastro.JPG)
 
-    Nessa página será possível realizar o cadastro do ponto de coleta, onde será armazenado para o banco de dados
+RESULTADO
 
-PESQUISA
+A pesquisa dos pontos de coleta é feita por cidade, você pode pesquisar os pontos que já foram cadastrados durante o desenvolvimento, sendo as cidades já cadastradas: Rio do Sul, Chapadão do Sul e Afogados da Ingazeira. Também é possível pequisar novas cidades que você tenha cadastrado. Caso não encontre a cidade pesquisada, a pesquisa retorna que não localizou nenhum ponto de coleta.
+![](Images/resultado.JPG)
 
-  -Visualização
 
-    O usuário poderá ver os pontos de coleta localizados pela cidade, retornando de acordo com a pesquisa no banco de dados.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
